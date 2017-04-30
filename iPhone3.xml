@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<iphone>
+    <name>iPhone General Settings</name>
+    <aboutiphone id="1">
+            <name>iPhone</name>
+            <network type="operator">Vodafone CZ</network>
+            <videos>329</videos>
+            <photos>6799</photos>
+            <applications>58</applications>
+            <capacity>128 GB</capacity>
+            <version>10.3.1</version>
+            <serialnumber>F2LH2EZY0F</serialnumber>
+            
+        
+        
+        
+    </aboutiphone>
+    <softwareupdate id="2">
+        
+        
+    </softwareupdate>
+    <spotlightsearch id="3">
+        
+       
+            <sirisuggestions type="optional">on/off</sirisuggestions>
+            <suggestionsinsearch type="optional">on/off</suggestionsinsearch>
+             <suggestionsinlookup type="optional">on/off</suggestionsinlookup>
+             
+        
+    </spotlightsearch>
+    <accessibility id="4">
+        
+        
+            <vision>VoiceOver</vision>
+            <vision>Zoom</vision>
+            <vision>Speech</vision>
+            <vision>Larger Text</vision>
+            <interaction>Switch Control</interaction>
+            <interaction>Assive Touch</interaction>
+            <hearing>Hearing Devices</hearing>
+            <hearing>Mono Audio</hearing>
+            <media>Subtitles</media>
+            <learning>Guided Access</learning>
+            
+
+            
+        
+    </accessibility>
+    <storage id="5">
+        
+        
+            <usedstorage>48 gb</usedstorage>
+            <availablestorage>76 gb</availablestorage>
+            
+        
+    </storage>
+    <date_time id="6">
+        
+        
+            <hourtime type="optional">on/off</hourtime>
+            <timezone>Prague</timezone>
+            
+        
+    </date_time>
+    <language_region id="7">
+       
+        
+            <language>English</language>
+            <preferred type="optional">Cestina,Turkish</preferred>
+            <region>Czech Republic</region>
+            <calendar>Gregorian</calendar>
+            <temperatureunit type="degree">Celcius</temperatureunit>
+
+        
+    </language_region>
+    <display_brightness id="8">
+        
+        
+            <brightness>Auto/Night Shift</brightness>
+            <textsize type="optional">Small/Capital</textsize>
+        
+    </display_brightness>
+    <settings id="9">
+        
+        
+            <airplanemode type="optional">on/off</airplanemode>
+            <wifi>Czu-Guest</wifi>
+            <bluetooth type="optional">on/off</bluetooth>
+            <mobiledata type="optional">on/off</mobiledata>
+            <carrier>Vodafone CZ</carrier>
+        
+    </settings>
+    <control_centre id="10">
+        
+        
+            <accessonlockscreen type="optional">on/off</accessonlockscreen>
+            <accesswithinapps>Czu-Guest</accesswithinapps>
+            
+        
+    </control_centre>
+    <do_not_disturb id="11">
+        
+        
+            <manual type="optional">on/off</manual>
+            <scheduled>Repeated Calls</scheduled>
+            <allowcallsfrom type="optional">everyone/no one/favourites</allowcallsfrom>
+            <mobiledata type="optional">on/off</mobiledata>
+            <groups>All Contacts</groups>
+            <silence>Always</silence>
+        
+    </do_not_disturb>
+    <sounds_vibration id="12">
+        <ringtone>opening</ringtone>
+        <texttone>note</texttone>
+        <newvoicemail>tri-tone</newvoicemail>
+        <newmail>ding</newmail>
+        <sentmail>swoosh</sentmail>
+        <tweet>tweet</tweet>
+        <facebookpost>swish</facebookpost>
+        <calendaralerts>chord</calendaralerts>
+        <reminderalerts>chord</reminderalerts>
+        <airdrop>pulse</airdrop>
+    </sounds_vibration>
+    <siri id="13">
+        <starting>Hey Siri</starting>
+        <language>English</language>
+        <voicefeedback>always</voicefeedback>
+        <myinfo>Fatih Ellek</myinfo>
+        <appsupport>Facebook/Skype/Uber/Whatsapp</appsupport>
+        
+    </siri>
+    <apple_id id="14">
+        <name>Fatih Ellek</name>
+        <mail>ellek528@gmail.com</mail>
+        <dateofbirth>21/02/1994</dateofbirth>
+        <news>Announcements</news>
+    </apple_id>
+    
+</iphone>
+
+
+

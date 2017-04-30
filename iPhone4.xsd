@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:complexType name="aboutiphone">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="videos" type="xs:decimal"/>
+            <xs:element name="photos" type="xs:decimal"/>
+            <xs:element name="application" type="xs:decimal"/>
+            <xs:element name="capacity" type="xs:decimal"/>
+            <xs:element name="version" type="xs:decimal"/> 
+            <xs:element name="serialnumber" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute  name="network"  type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="spotlightsearch">
+        <xs:sequence>
+            <xs:element name="suggestionsinsearch" type="xs:string"/>
+            <xs:element name="suggestionsinlookup" type="xs:string"/>
+          
+        </xs:sequence>
+        <xs:attribute  name="sirisuggestions"  type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="accessibility">
+        <xs:sequence>
+            <xs:element name="vision" type="xs:string"/>
+            <xs:element name="interaction" type="xs:string"/>
+            <xs:element name="hearing" type="xs:string"/>
+            <xs:element name="media" type="xs:string"/>
+            <xs:element name="learning" type="xs:string"/>
+            
+        </xs:sequence>
+        
+    </xs:complexType>
+    <xs:complexType name="storage">
+        <xs:sequence>
+            <xs:element name="usedstorage" type="xs:decimal"/>
+            <xs:element name="availablestorage" type="xs:decimal"/>
+          
+        </xs:sequence>
+       
+    </xs:complexType>
+    <xs:complexType name="date_time">
+        <xs:sequence>
+            <xs:element name="timezone" type="xs:string"/>
+            
+          
+        </xs:sequence>
+        <xs:attribute  name="hourtime"  type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="language_region">
+        <xs:sequence>
+            <xs:element name="language" type="xs:string"/>
+            <xs:element name="region" type="xs:string"/>
+            <xs:element name="calendar" type="xs:string"/>
+            
+
+        </xs:sequence>
+        <xs:attribute  name="preferred"  type="xs:string" use="required"/>
+        <xs:attribute  name="temperatureunit"  type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="display_brightness">
+        <xs:sequence>
+            <xs:element name="brightness" type="xs:string"/>
+            
+          
+        </xs:sequence>
+        <xs:attribute  name="textsize"  type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="settings">
+        <xs:sequence>
+            <xs:element name="wifi" type="xs:string"/>
+            <xs:element name="carrier" type="xs:string"/>
+            
+            
+          
+        </xs:sequence>
+        <xs:attribute  name="airplanemode"  type="xs:string" use="required"/>
+        <xs:attribute  name="bluetooth"  type="xs:string" use="required"/>
+        <xs:attribute  name="mobiledata"  type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="control_centre">
+        <xs:sequence>
+            <xs:element name="accesswithinapps" type="xs:string"/>
+            
+          
+        </xs:sequence>
+        <xs:attribute  name="accessonlockscreen"  type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="do_not_disturb">
+        <xs:sequence>
+            <xs:element name="scheduled" type="xs:string"/>
+            <xs:element name="groups" type="xs:string"/>
+            <xs:element name="silence" type="xs:string"/>
+            
+            
+          
+        </xs:sequence>
+        <xs:attribute  name="manual"  type="xs:string" use="required"/>
+        <xs:attribute  name="allowscallfrom"  type="xs:string" use="required"/>
+        <xs:attribute  name="mobiledata"  type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="sounds_vibration">
+        <xs:sequence>
+            <xs:element name="ringtone" type="xs:string"/>
+            <xs:element name="texttone" type="xs:string"/>
+            <xs:element name="newvoicemail" type="xs:string"/>
+            <xs:element name="newmail" type="xs:string"/>
+            <xs:element name="sentmail" type="xs:string"/>
+            <xs:element name="tweet" type="xs:string"/>
+            <xs:element name="facebookpost" type="xs:string"/>
+            <xs:element name="calendaralerts" type="xs:string"/>
+            <xs:element name="reminderalerts" type="xs:string"/>
+            <xs:element name="airdrop" type="xs:string"/>
+          
+        </xs:sequence>
+       
+    </xs:complexType>
+    <xs:complexType name="siri">
+        <xs:sequence>
+            <xs:element name="starting" type="xs:string"/>
+            <xs:element name="language" type="xs:string"/>
+            <xs:element name="voicefeedback" type="xs:string"/>
+            <xs:element name="myinfo" type="xs:string"/>
+            <xs:element name="appsupport" type="xs:string"/>
+            
+          
+        </xs:sequence>
+       
+    </xs:complexType>
+    <xs:complexType name="apple_id">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="mail" type="xs:string"/>
+            <xs:element name="dateofbirth" type="xs:decimal"/>
+            <xs:element name="news" type="xs:string"/>
+            
+            
+          
+        </xs:sequence>
+       
+    </xs:complexType>
+    
+    
+</xs:schema>

@@ -1,0 +1,160 @@
+{
+  "iphone": {
+    "name": "iPhone General Settings",
+    "aboutiphone": {
+      "-id": "1",
+      "name": "iPhone",
+      "network": {
+        "-type": "operator",
+        "#text": "Vodafone CZ"
+      },
+      "videos": "329",
+      "photos": "6799",
+      "applications": "58",
+      "capacity": "128 GB",
+      "version": "10.3.1",
+      "serialnumber": "F2LH2EZY0F"
+    },
+    "softwareupdate": { "-id": "2" },
+    "spotlightsearch": {
+      "-id": "3",
+      "sirisuggestions": {
+        "-type": "optional",
+        "#text": "on/off"
+      },
+      "suggestionsinsearch": {
+        "-type": "optional",
+        "#text": "on/off"
+      },
+      "suggestionsinlookup": {
+        "-type": "optional",
+        "#text": "on/off"
+      }
+    },
+    "accessibility": {
+      "-id": "4",
+      "vision": [
+        "VoiceOver",
+        "Zoom",
+        "Speech",
+        "Larger Text"
+      ],
+      "interaction": [
+        "Switch Control",
+        "Assive Touch"
+      ],
+      "hearing": [
+        "Hearing Devices",
+        "Mono Audio"
+      ],
+      "media": "Subtitles",
+      "learning": "Guided Access"
+    },
+    "storage": {
+      "-id": "5",
+      "usedstorage": "48 gb",
+      "availablestorage": "76 gb"
+    },
+    "date_time": {
+      "-id": "6",
+      "hourtime": {
+        "-type": "optional",
+        "#text": "on/off"
+      },
+      "timezone": "Prague"
+    },
+    "language_region": {
+      "-id": "7",
+      "language": "English",
+      "preferred": {
+        "-type": "optional",
+        "#text": "Cestina,Turkish"
+      },
+      "region": "Czech Republic",
+      "calendar": "Gregorian",
+      "temperatureunit": {
+        "-type": "degree",
+        "#text": "Celcius"
+      }
+    },
+    "display_brightness": {
+      "-id": "8",
+      "brightness": "Auto/Night Shift",
+      "textsize": {
+        "-type": "optional",
+        "#text": "Small/Capital"
+      }
+    },
+    "settings": {
+      "-id": "9",
+      "airplanemode": {
+        "-type": "optional",
+        "#text": "on/off"
+      },
+      "wifi": "Czu-Guest",
+      "bluetooth": {
+        "-type": "optional",
+        "#text": "on/off"
+      },
+      "mobiledata": {
+        "-type": "optional",
+        "#text": "on/off"
+      },
+      "carrier": "Vodafone CZ"
+    },
+    "control_centre": {
+      "-id": "10",
+      "accessonlockscreen": {
+        "-type": "optional",
+        "#text": "on/off"
+      },
+      "accesswithinapps": "Czu-Guest"
+    },
+    "do_not_disturb": {
+      "-id": "11",
+      "manual": {
+        "-type": "optional",
+        "#text": "on/off"
+      },
+      "scheduled": "Repeated Calls",
+      "allowcallsfrom": {
+        "-type": "optional",
+        "#text": "everyone/no one/favourites"
+      },
+      "mobiledata": {
+        "-type": "optional",
+        "#text": "on/off"
+      },
+      "groups": "All Contacts",
+      "silence": "Always"
+    },
+    "sounds_vibration": {
+      "-id": "12",
+      "ringtone": "opening",
+      "texttone": "note",
+      "newvoicemail": "tri-tone",
+      "newmail": "ding",
+      "sentmail": "swoosh",
+      "tweet": "tweet",
+      "facebookpost": "swish",
+      "calendaralerts": "chord",
+      "reminderalerts": "chord",
+      "airdrop": "pulse"
+    },
+    "siri": {
+      "-id": "13",
+      "starting": "Hey Siri",
+      "language": "English",
+      "voicefeedback": "always",
+      "myinfo": "Fatih Ellek",
+      "appsupport": "Facebook/Skype/Uber/Whatsapp"
+    },
+    "apple_id": {
+      "-id": "14",
+      "name": "Fatih Ellek",
+      "mail": "ellek528@gmail.com",
+      "dateofbirth": "21/02/1994",
+      "news": "Announcements"
+    }
+  }
+}
